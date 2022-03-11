@@ -84,7 +84,17 @@ if (ageUserInput > 18) {
 // Compare the values of myAge and yourAge using if … else. Based on the comparison and log the result to console stating who is older (me or you). Use prompt(“Enter your age:”) to get the age as input.
 
  /* This one I have questions about. I answered it based on exactly what he wanted his output to be. But thinking about it I am almost 100% sure to properly do this you need to have a count function. I was wracking my brain thinking about how I was going to answer this one. H hasn't taught us count functions yet I don't think. I wil look back at previous lessons and see. */
-
+let yourAge = 25
+let myAge = 30
+ let userAgeInput = prompt('Enter your age')
+ if (yourAge >= 26){
+   console.log('You are older than me')
+ }else if (myAge > 25){
+   console.log('I am older than you')
+ }else (yourAge == 25 || myAge == 30); {
+  console.log(`I am 5 years older than you`)
+ }
+ 
  let userAgeInput = prompt('How old are you?');
 switch (true) {
   case userAgeInput >= 30:
@@ -157,3 +167,43 @@ if (ageUserInput > 18) {
 } else {
     console.log(`You're too young to take the wheel. Let God and ya mama take you there.`)
 }
+//
+var num = 5;
+   document.write("Number = "+num+"<br>");
+   if(num % 2 == 0) {
+      document.write('Number is even!');
+   } else {
+      document.write('Number is odd!');
+   }
+
+   //  Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript?
+
+   let num = 2
+console.log("number = "+num+"</br>");
+if(num % 2 == 0) {
+  console.log('Number is even')
+}else{
+  console.log('Number is odd')
+}
+
+let num = 9
+console.log("number = "+num+"</br>");
+if(num % 2 == 0) {
+  console.log('Number is even')
+}else{
+  console.log('Number is odd')
+}
+
+
+
+
+
+
+
+   var num = 5;
+   document.write("Number = "+num+"<br>");
+   if(num % 2 == 0) {
+      document.write('Number is even!');
+   } else {
+      document.write('Number is odd!');
+   }
